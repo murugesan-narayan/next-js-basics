@@ -1,23 +1,25 @@
-.header {
-    background-color: #264653;
-    color: #f4a261;
-    font-size: 30px;
-    text-align: center;
-    padding: 30px;
-  }
-  
-  .footer {
-    background-color: #264653;
-    color: #e9c46a;
-    font-size: 30px;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
+.content-header {
+  background-color: #264653;
+  color: #f4a261;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer {
+  background-color: #264653;
+  color: #f4a261;
+  font-size: 10px;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
